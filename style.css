@@ -1,0 +1,52 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    color: orange;
+}
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: tomato;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 120%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon tomato);
+    background-color: salmon;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    color: rebeccapurple;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg,lightsalmon,tomato);
+    background-color: gainsboro;
+    border-image-slice: 1px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
